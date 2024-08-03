@@ -25,7 +25,6 @@ const items = MainCarouselData.map((item,index) =>
         animationType="fadeout"
         infinite
         touchTracking={false}
-        disableDotsControls
         disableButtonsControls
         items={items}
     />

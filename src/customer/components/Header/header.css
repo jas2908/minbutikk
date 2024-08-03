@@ -1,0 +1,35 @@
+/* Header.css */
+.header {
+    background-color: white; /* White background for the header */
+    color: black; /* Black text color */
+    padding: 10px 0; /* Top and bottom padding */
+    border-bottom: 1px solid #ddd; /* Light border at the bottom */
+}
+
+.container {
+    max-width: 1200px; /* Max width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Horizontal padding */
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+}
+
+.title {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5rem; /* Font size for the title */
+}
+
+.nav {
+    display: flex; /* Flexbox for horizontal layout */
+}
+
+.nav-link {
+    color: black; /* Black color for the links */
+    text-decoration: none; /* Remove underline from links */
+    margin-left: 20px; /* Space between links */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
