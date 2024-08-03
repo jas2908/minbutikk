@@ -1,0 +1,23 @@
+
+
+.carousel-item {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px; /* Adjust as needed */
+}
